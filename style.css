@@ -1,0 +1,93 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body { /* Visual */
+    background: red;
+    color: white;
+  }
+  form {color: white;
+  }
+  /* h1{ font-size: 120px; } */
+
+  #display {
+    border: solid 2px brown;
+
+    font-family:'Bowlby One SC';
+    font-size: 300px;
+    color: yellow;
+    width: 100%;
+  
+    /* Typography */
+    text-align: center;
+  
+    /* Visual */
+    background: red;
+  }
+  
+  #wrapper {
+    /* Box-model */
+    border: solid 2px green;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  
+    /* Positioning */
+    /* margin: 50px auto 0; */
+  }
+  
+  #buttons { /* Typography */
+    text-align: center;
+  }
+  
+  button {
+    width: 100px;
+  
+    /* Box-model */
+    height: 50px;
+  }
+  
+  #laps {
+    border: solid 2px orange;
+    font-family:'Bowlby One SC';
+    width: 30%;
+    font-size: 100px;
+    color: yellow;
+    text-align: center;
+  
+  }
+  #lapContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  #logoContainer{
+    width:100%;
+    display:flex;
+    margin: 4em;
+  
+   
+  }
+  #imageContainer{
+    padding: 2em;
+  }
+  #directions{ 
+    margin-right: auto;
+    font-size: 2em;
+    padding: 2em;
+  
+  
+  }
+    /* Positioning */
+    /* margin-top: 20px; */
+  
+    /* Box-model */
+    /* overflow: auto; */
+  
+    /* Typography */
+    /* text-align: center; */
+  
+    /* Visual */
+    /* background: white;
+  } */

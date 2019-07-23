@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+      <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Stopwatch</title>
+
+    <!-- Our CSS style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+
+      <div id="display">00:00</div>
+
+      
+<div id ="lapContainer">
+      <div id="laps"></div>
+</div>
+<!-- Div containing our stopwatch controls -->
+<div id="buttons">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button>
+    <button id="lap">Count</button>
+  </div> <!-- end button div-->
+  <div id="logoContainer">
+      <div id= "directions">spacebar = start clock<br>enter = stop clock<br> up arrow = increase count <br> down arrorw = decrease count</div>
+
+      <div id = "imageContainer"> <img src="/Timer_digital_look/images/WindyCityKettleBellClub_Logo-03_2.png" alt="bell image" width ="300" height = "325"></div>
+    </div> <!-- end logoContainer div-->
+  
+  </div><!-- end wrapper div-->
+<!-- <div id ="formDiv"> 
+  <form>
+      <table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th> 
+    <th>Age</th>
+    <th>Event</th>
+    <th>Lift</th>
+    <th>Bell Weight</th>
+  </tr>
+  <tr>
+    <td><input type ='text' name ='firstname' id="firstName-input"></td>
+    <td><input type ='text' name ='lastname' id="lastName-input"></td>
+    <td><input type ='text' name ='age' id="age-input"></td>
+    <td><input type ='text' name ='event' id="event-input"></td>
+    <td><input type ='text' name ='lift' id="lift-input"></td>
+    <td><input type ='text' name ='Bell' id="bellWeight-input"></td>
+    <td><input type="submit" value="Submit"id="submit"></td>
+
+
+  </tr>
+</form>
+</table> -->
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="index.js"></script>
+
+  </body>
+
+</html>
