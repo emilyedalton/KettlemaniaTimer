@@ -6,11 +6,16 @@ body { /* Visual */
   }
   form {color: white;
   }
-  /* h1{ font-size: 120px; } */
 
+.btn {
+  
+      background-color: yellow;
+     
+      }
+.modal-title, .modal-body{
+     color:black
+    }
   #display {
-    border: solid 2px brown;
-
     font-family:'Bowlby One SC';
     font-size: 300px;
     color: yellow;
@@ -24,44 +29,37 @@ body { /* Visual */
   }
   
   #wrapper {
-    /* Box-model */
-    border: solid 2px green;
     display:flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-  
-    /* Positioning */
-    /* margin: 50px auto 0; */
-  }
+    }
   
   #buttons { /* Typography */
     text-align: center;
   }
   
-  button {
-    width: 100px;
-  
-    /* Box-model */
-    height: 50px;
+ 
+  #lapContainer{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
   #laps {
-    border: solid 2px orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family:'Bowlby One SC';
     width: 30%;
-    font-size: 100px;
+    height: 200px;
+    font-size: 200px;
     color: yellow;
-    text-align: center;
+    /* text-align: center; */
   
   }
-  #lapContainer{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
+ 
   #logoContainer{
     width:100%;
     display:flex;
@@ -79,15 +77,4 @@ body { /* Visual */
   
   
   }
-    /* Positioning */
-    /* margin-top: 20px; */
-  
-    /* Box-model */
-    /* overflow: auto; */
-  
-    /* Typography */
-    /* text-align: center; */
-  
-    /* Visual */
-    /* background: white;
-  } */
+   

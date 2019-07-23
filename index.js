@@ -63,7 +63,7 @@ var config = {
     if (event.keyCode === 82) stopwatch.reset();
     if (event.keyCode === 38) stopwatch.lap++;
     if (event.keyCode === 40) stopwatch.lap--;
-    $("#laps").html("<h1>" + stopwatch.lap +  "</h1>");
+    $("#laps").html( stopwatch.lap);
     console.log(stopwatch.lap)
   
   
