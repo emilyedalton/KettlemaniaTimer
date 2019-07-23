@@ -63,7 +63,7 @@ var config = {
     if (event.keyCode === 82) stopwatch.reset();
     if (event.keyCode === 38) stopwatch.lap++;
     if (event.keyCode === 40) stopwatch.lap--;
-    $("#laps").html( stopwatch.lap);
+    $("#laps").html(stopwatch.lap);
     console.log(stopwatch.lap)
   
   
@@ -119,7 +119,7 @@ var config = {
      
   
       // DONE: Add the current lap and time to the "laps" div.
-      $("#laps").html("<h1>" + stopwatch.lap +  "</h1>");
+      $("#laps").html(stopwatch.lap);
   
       // DONE: Increment lap by 1. Remember, we can't use "this" here.
        stopwatch.lap++;
